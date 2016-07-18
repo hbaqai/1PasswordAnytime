@@ -1,0 +1,25 @@
+{
+  "name": "typescript-boiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbaqai/typescript-boiler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hbaqai/typescript-boiler/issues"
+  },
+  "homepage": "https://github.com/hbaqai/typescript-boiler#readme",
+  "dependencies": {
+    "tslint": "^3.13.0",
+    "typescript": "^2.0.0",
+    "typings": "^1.3.1"
+  }
+}
