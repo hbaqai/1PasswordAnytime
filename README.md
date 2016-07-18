@@ -18,6 +18,4 @@ Disclaimer
 --------------------
 This app has no association with 1Password or AgileBits.
 
-While there may be ongoing improvements to this software from various sources, at any given point in time, this software is provided as is. Use it at your own risk.
-
-Under no circumstances shall the creators of this software be liable for direct, indirect, special, incidental, or consequential damages resulting from the use, misuse, or inability to use this software.
+Please see the [LICENSE](LICENSE.md) for additional information.
