@@ -3,4 +3,5 @@ node_modules
 typings
 build
 npm-debug.log
+.env
 

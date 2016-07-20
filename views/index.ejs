@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Dropbox JavaScript SDK</title>
+  <!-- <link rel="stylesheet" href="/styles.css"> -->
+  <script src="https://npmcdn.com/dropbox@2.0.0/dist/Dropbox-sdk.min.js"></script>
+</head>
+<body>
+  <h1>1Password Anytime</h1>
+  <h3>Select your 1Password Vault</h3>
+  <p>This example shows how to use the .filesListFolder() method to fetch the contents of the users '/Screenshots' folder.</p>
+  <p>Open your console to see the results.</p>
+  <p><a href="https://dropbox.github.io/dropbox-api-v2-explorer/#files_list_folder">Click here</a> to get an access token to try this out.</p>
+  <script>
+    var dropbox = new Dropbox({ accessToken: <%= dropboxToken %>});
+    dropbox.filesSearch({path: '', query: '.agilekeychain'})
+      .then(function(response) {
+        console.dir(response.matches);
+        response.matches.forEach(function(arrayItem){
+          console.log(arrayItem.metadata.name);
+        });
+      })
+      .catch(function(error) {
+        console.log(error);
+      });
+  </script>
+</body>
+</html>
