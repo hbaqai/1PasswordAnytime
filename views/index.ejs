@@ -12,7 +12,7 @@
   <p>Open your console to see the results.</p>
   <p><a href="https://dropbox.github.io/dropbox-api-v2-explorer/#files_list_folder">Click here</a> to get an access token to try this out.</p>
   <script>
-    var dropbox = new Dropbox({ accessToken: <%= dropboxToken %>});
+    var dropbox = new Dropbox({ accessToken: '<%= dropboxToken %>'});
     dropbox.filesSearch({path: '', query: '.agilekeychain'})
       .then(function(response) {
         console.dir(response.matches);
